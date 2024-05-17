@@ -1,0 +1,211 @@
+/* 
+Button CLicker
+first assigment in Java script.
+author by Rahma Faris 
+
+ */
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav {
+    width: 85%;
+    Height: 5%;
+    background-color: #cbcbcb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 90px;
+
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.btn {
+
+    background-color: #17a2b8;
+    color: white;
+    padding: 5px;
+    border-style: solid;
+    height: 30px;
+    width: 70px;
+    margin-left: 1%;
+    box-shadow: 5px 3px 5px 3px black;
+}
+
+.counter {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left_side {
+
+    width: 45%;
+    height: 90%;
+    display: flex;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.box_1 {
+    margin: 40px;
+    border: black;
+    width: 400px;
+    height: 150px;
+    font-weight: normal;
+    border-style: solid;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: row;
+
+}
+
+.pron_1 {
+    margin: 5px 20px;
+    font-size: 26px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.type_1 {
+    margin: 5px 30px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.def_1 {
+    margin: 5px 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.discription_1 {
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.likes {
+    border-style: bold;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    box-shadow: 5px 3px 7px black;
+    background-color: #ffd966;
+    color: black;
+}
+
+.box_2 {
+    margin: 40px;
+    border: black;
+    width: 400px;
+    height: 150px;
+    font-weight: normal;
+    border-style: solid;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: row;
+
+}
+
+.pron_1 {
+    margin: 5px 20px;
+    font-size: 26px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.type_1 {
+    margin: 5px 30px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.def_1 {
+    margin: 5px 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.discription_1 {
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.likes {
+    border-style: bold;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    box-shadow: 5px 3px 7px black;
+    background-color: #ffd966;
+    color: black;
+}
+
+
+.right_side {
+
+    width: 45%;
+    height: 90%;
+    float: right;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_3 {
+    border: black;
+    width: 200px;
+    height: 120px;
+    font-weight: normal;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sentance_1 {
+    margin: 5px 20px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Add_Defintion {
+    border-style: bold;
+    width: 140px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 3px 7px 5px black;
+    background-color: #93c47d;
+    color: black;
+    align-self: flex-start;
+
+}
